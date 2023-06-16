@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tesis.View.Reservar"
+             >
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <Grid ColumnDefinitions="*, *"
+          VerticalOptions="Start"
+          BackgroundColor="#2887DE"
+          HeightRequest="30"
+          Padding="10"
+          RowDefinitions="*">
+                    <Label 
+                    Margin="15,2,0,0"
+                    Grid.Column="0"
+                    Text="Reserva"
+                    FontSize="20"
+                    TextColor="White">
+                    </Label>
+                    <ImageButton Grid.Column="1"
+                             Source="ic_dots"
+                             Background="transparent"
+                             HorizontalOptions="End">
+                    </ImageButton>
+                </Grid>
+            </StackLayout>
+            <StackLayout VerticalOptions="StartAndExpand">
+                <Label Text="Seleccione el campo"
+                   FontSize="17"
+                   TextColor="Black"
+                   Margin="9,10,0,0"></Label>
+                <StackLayout>
+                    <Picker Title="Eligir un campo a reservar">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Futbon campo1</x:String>
+                                <x:String>Futbol campo 2</x:String>
+                                <x:String>Basquet y/o Voley</x:String>
+                                <x:String>Frontón</x:String>
+                                <x:String>Ping Pong</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                </StackLayout>
+                <StackLayout>
+
+                </StackLayout>
+                <Label Text="Seleccione el campo"
+                   FontSize="17"
+                   TextColor="Black"
+                   Margin="9,10,0,0"></Label>
+                <StackLayout>
+                    <Button Text="Fultbol 1        05/06        10-11 AM" Background="#72CA7A" CornerRadius="30" HorizontalOptions="Center"/>
+                    <Button Text="Fultbol 1        05/06        11-12 AM" Background="#72CA7A" CornerRadius="30" HorizontalOptions="Center"/>
+                    <Button Text="Fultbol 1        05/06        12-13 PM" Background="#FF3B3B" CornerRadius="30" HorizontalOptions="Center"/>
+                    <Button Text="Fultbol 1        05/06        13-14 PM" Background="#72CA7A" CornerRadius="30" HorizontalOptions="Center"/>
+                </StackLayout>
+            </StackLayout>
+            <Button Text="Reservar" HorizontalOptions="Center" WidthRequest="150" BackgroundColor="#5CCBEE" CornerRadius="30"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>

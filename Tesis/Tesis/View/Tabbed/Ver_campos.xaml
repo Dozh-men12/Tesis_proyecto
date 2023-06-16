@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tesis.View.Ver_campos"
+             Title="Ver campos">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid ColumnDefinitions="*,*"
+          VerticalOptions="Start"
+          BackgroundColor="#2887DE"
+          HeightRequest="30"
+          Padding="8"
+          RowDefinitions="*">
+                <Label 
+                    Margin="5,2,0,0"
+                    Grid.Column="0"
+                    Text="Ver campos"
+                    FontSize="Medium"
+                    TextColor="White">
+                </Label>
+                <ImageButton
+            Grid.Column="1"
+            Source="ic_dots"
+            Background="transparent"
+            HorizontalOptions="End">
+                </ImageButton>
+            </Grid>
+            <Label Text="Elementos de mapa"
+                   TextColor="Green"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
