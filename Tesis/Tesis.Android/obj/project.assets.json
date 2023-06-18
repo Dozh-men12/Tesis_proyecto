@@ -1776,12 +1776,32 @@
           "buildTransitive/monoandroid50/Xamarin.Google.Guava.ListenableFuture.targets": {}
         }
       },
+      "Xamarin.Plugin.Calendar/2.0.9699": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.8.0.1687"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid10.0/Xamarin.Plugin.Calendar.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/monoandroid10.0/Xamarin.Plugin.Calendar.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Tesis/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Forms": "5.0.0.2196",
+          "Xamarin.Plugin.Calendar": "2.0.9699"
         },
         "compile": {
           "bin/placeholder/Tesis.dll": {}
@@ -3394,6 +3414,26 @@
         "xamarin.google.guava.listenablefuture.nuspec"
       ]
     },
+    "Xamarin.Plugin.Calendar/2.0.9699": {
+      "sha512": "Yt1MHlv1uu9LiihnsyyCc/YagU2bJcQLi6XPtLneW8WiT8uLemgGDu0O75hFvdEtyk8uUOg/1pR9jNbnP+dzQw==",
+      "type": "package",
+      "path": "xamarin.plugin.calendar/2.0.9699",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid10.0/Xamarin.Plugin.Calendar.dll",
+        "lib/monoandroid10.0/Xamarin.Plugin.Calendar.pdb",
+        "lib/monoandroid10.0/Xamarin.Plugin.Calendar.xml",
+        "lib/netstandard2.0/Xamarin.Plugin.Calendar.dll",
+        "lib/netstandard2.0/Xamarin.Plugin.Calendar.pdb",
+        "lib/netstandard2.0/Xamarin.Plugin.Calendar.xml",
+        "lib/xamarinios10/Xamarin.Plugin.Calendar.dll",
+        "lib/xamarinios10/Xamarin.Plugin.Calendar.pdb",
+        "lib/xamarinios10/Xamarin.Plugin.Calendar.xml",
+        "xamarin.plugin.calendar.2.0.9699.nupkg.sha512",
+        "xamarin.plugin.calendar.nuspec"
+      ]
+    },
     "Tesis/1.0.0": {
       "type": "project",
       "path": "../Tesis/Tesis.csproj",
@@ -3404,28 +3444,29 @@
     "MonoAndroid,Version=v13.0": [
       "Tesis >= 1.0.0",
       "Xamarin.Essentials >= 1.7.0",
-      "Xamarin.Forms >= 5.0.0.2196"
+      "Xamarin.Forms >= 5.0.0.2196",
+      "Xamarin.Plugin.Calendar >= 2.0.9699"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Users\\elovf\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\5to ciclo\\proyecto_tesis\\TESIS\\Tesis\\Tesis.Android\\Tesis.Android.csproj",
+      "projectUniqueName": "C:\\Users\\elovf\\OneDrive\\Escritorio\\xamarin-TESIS\\Tesis_proyecto_anterior\\Tesis\\Tesis.Android\\Tesis.Android.csproj",
       "projectName": "Tesis.Android",
-      "projectPath": "D:\\5to ciclo\\proyecto_tesis\\TESIS\\Tesis\\Tesis.Android\\Tesis.Android.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\5to ciclo\\proyecto_tesis\\TESIS\\Tesis\\Tesis.Android\\obj\\",
+      "projectPath": "C:\\Users\\elovf\\OneDrive\\Escritorio\\xamarin-TESIS\\Tesis_proyecto_anterior\\Tesis\\Tesis.Android\\Tesis.Android.csproj",
+      "packagesPath": "C:\\Users\\elovf\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\elovf\\OneDrive\\Escritorio\\xamarin-TESIS\\Tesis_proyecto_anterior\\Tesis\\Tesis.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\elovf\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3439,8 +3480,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "D:\\5to ciclo\\proyecto_tesis\\TESIS\\Tesis\\Tesis\\Tesis.csproj": {
-              "projectPath": "D:\\5to ciclo\\proyecto_tesis\\TESIS\\Tesis\\Tesis\\Tesis.csproj"
+            "C:\\Users\\elovf\\OneDrive\\Escritorio\\xamarin-TESIS\\Tesis_proyecto_anterior\\Tesis\\Tesis\\Tesis.csproj": {
+              "projectPath": "C:\\Users\\elovf\\OneDrive\\Escritorio\\xamarin-TESIS\\Tesis_proyecto_anterior\\Tesis\\Tesis\\Tesis.csproj"
             }
           }
         }
@@ -3464,6 +3505,14 @@
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[5.0.0.2196, )"
+          },
+          "Xamarin.Plugin.Calendar": {
+            "target": "Package",
+            "version": "[2.0.9699, )"
+          },
+          "Xamarin.Plugin.Calendar": {
+            "target": "Package",
+            "version": "[2.0.9699, )"
           }
         }
       }

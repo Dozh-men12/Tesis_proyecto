@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Tesis.View.Reservar"
-             >
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:cal="clr-namespace:Xamarin.Plugin.Calendar;assembly=Xamarin.Plugin.Calendar" 
+             x:Class="Tesis.View.Reservar">
     <ContentPage.Content>
         <StackLayout>
             <StackLayout>
                 <Grid ColumnDefinitions="*, *"
-          VerticalOptions="Start"
-          BackgroundColor="#2887DE"
-          HeightRequest="30"
-          Padding="10"
-          RowDefinitions="*">
+                    VerticalOptions="Start"
+                    BackgroundColor="#2887DE"
+                    HeightRequest="30"
+                    Padding="10"
+                    RowDefinitions="*">
                     <Label 
                     Margin="15,2,0,0"
                     Grid.Column="0"
@@ -30,7 +30,7 @@
                 <Label Text="Seleccione el campo"
                    FontSize="17"
                    TextColor="Black"
-                   Margin="9,10,0,0"></Label>
+                   Margin="15,10,0,0"></Label>
                 <StackLayout>
                     <Picker Title="Eligir un campo a reservar">
                         <Picker.ItemsSource>
@@ -45,12 +45,12 @@
                     </Picker>
                 </StackLayout>
                 <StackLayout>
-
+                    
                 </StackLayout>
-                <Label Text="Seleccione el campo"
+                <Label Text="Horario Disponible"
                    FontSize="17"
                    TextColor="Black"
-                   Margin="9,10,0,0"></Label>
+                   Margin="15,10,0,0"></Label>
                 <StackLayout>
                     <Button Text="Fultbol 1        05/06        10-11 AM" Background="#72CA7A" CornerRadius="30" HorizontalOptions="Center"/>
                     <Button Text="Fultbol 1        05/06        11-12 AM" Background="#72CA7A" CornerRadius="30" HorizontalOptions="Center"/>
@@ -58,7 +58,7 @@
                     <Button Text="Fultbol 1        05/06        13-14 PM" Background="#72CA7A" CornerRadius="30" HorizontalOptions="Center"/>
                 </StackLayout>
             </StackLayout>
-            <Button Text="Reservar" HorizontalOptions="Center" WidthRequest="150" BackgroundColor="#5CCBEE" CornerRadius="30"></Button>
+            <Button Text="Reservar" HorizontalOptions="Center" WidthRequest="150" BackgroundColor="#5CCBEE" CornerRadius="30" Margin="0,0,0,20"></Button>
         </StackLayout>
     </ContentPage.Content>
     

@@ -48,3 +48,23 @@ D:\5to ciclo\proyecto_tesis\TESIS\Tesis\Tesis\obj\Debug\netstandard2.0\View\Tabb
 D:\5to ciclo\proyecto_tesis\TESIS\Tesis\Tesis\obj\Debug\netstandard2.0\View\Tabbed\Mis_Reservas.xaml.g.cs
 D:\5to ciclo\proyecto_tesis\TESIS\Tesis\Tesis\obj\Debug\netstandard2.0\View\Tabbed\Reservar.xaml.g.cs
 D:\5to ciclo\proyecto_tesis\TESIS\Tesis\Tesis\obj\Debug\netstandard2.0\View\Tabbed\Ver_campos.xaml.g.cs
+C:\Users\elovf\OneDrive\Escritorio\xamarin-TESIS\Tesis_proyecto_anterior\Tesis\Tesis\bin\Debug\netstandard2.0\Tesis.deps.json
+C:\Users\elovf\OneDrive\Escritorio\xamarin-TESIS\Tesis_proyecto_anterior\Tesis\Tesis\bin\Debug\netstandard2.0\Tesis.dll
+C:\Users\elovf\OneDrive\Escritorio\xamarin-TESIS\Tesis_proyecto_anterior\Tesis\Tesis\bin\Debug\netstandard2.0\Tesis.pdb
+C:\Users\elovf\OneDrive\Escritorio\xamarin-TESIS\Tesis_proyecto_anterior\Tesis\Tesis\obj\Debug\netstandard2.0\Tesis.csproj.AssemblyReference.cache
+C:\Users\elovf\OneDrive\Escritorio\xamarin-TESIS\Tesis_proyecto_anterior\Tesis\Tesis\obj\Debug\netstandard2.0\Tesis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elovf\OneDrive\Escritorio\xamarin-TESIS\Tesis_proyecto_anterior\Tesis\Tesis\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\elovf\OneDrive\Escritorio\xamarin-TESIS\Tesis_proyecto_anterior\Tesis\Tesis\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\elovf\OneDrive\Escritorio\xamarin-TESIS\Tesis_proyecto_anterior\Tesis\Tesis\obj\Debug\netstandard2.0\View\Tabbed\ContainerTabbedPage.xaml.g.cs
+C:\Users\elovf\OneDrive\Escritorio\xamarin-TESIS\Tesis_proyecto_anterior\Tesis\Tesis\obj\Debug\netstandard2.0\View\Tabbed\Inicio.xaml.g.cs
+C:\Users\elovf\OneDrive\Escritorio\xamarin-TESIS\Tesis_proyecto_anterior\Tesis\Tesis\obj\Debug\netstandard2.0\View\Tabbed\Mis_Reservas.xaml.g.cs
+C:\Users\elovf\OneDrive\Escritorio\xamarin-TESIS\Tesis_proyecto_anterior\Tesis\Tesis\obj\Debug\netstandard2.0\View\Tabbed\Reservar.xaml.g.cs
+C:\Users\elovf\OneDrive\Escritorio\xamarin-TESIS\Tesis_proyecto_anterior\Tesis\Tesis\obj\Debug\netstandard2.0\View\Tabbed\Ver_campos.xaml.g.cs
+C:\Users\elovf\OneDrive\Escritorio\xamarin-TESIS\Tesis_proyecto_anterior\Tesis\Tesis\obj\Debug\netstandard2.0\Tesis.AssemblyInfoInputs.cache
+C:\Users\elovf\OneDrive\Escritorio\xamarin-TESIS\Tesis_proyecto_anterior\Tesis\Tesis\obj\Debug\netstandard2.0\Tesis.AssemblyInfo.cs
+C:\Users\elovf\OneDrive\Escritorio\xamarin-TESIS\Tesis_proyecto_anterior\Tesis\Tesis\obj\Debug\netstandard2.0\Tesis.csproj.CoreCompileInputs.cache
+C:\Users\elovf\OneDrive\Escritorio\xamarin-TESIS\Tesis_proyecto_anterior\Tesis\Tesis\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\elovf\OneDrive\Escritorio\xamarin-TESIS\Tesis_proyecto_anterior\Tesis\Tesis\obj\Debug\netstandard2.0\Tesis.dll
+C:\Users\elovf\OneDrive\Escritorio\xamarin-TESIS\Tesis_proyecto_anterior\Tesis\Tesis\obj\Debug\netstandard2.0\refint\Tesis.dll
+C:\Users\elovf\OneDrive\Escritorio\xamarin-TESIS\Tesis_proyecto_anterior\Tesis\Tesis\obj\Debug\netstandard2.0\Tesis.pdb
+C:\Users\elovf\OneDrive\Escritorio\xamarin-TESIS\Tesis_proyecto_anterior\Tesis\Tesis\obj\Debug\netstandard2.0\ref\Tesis.dll

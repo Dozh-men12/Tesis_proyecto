@@ -5,13 +5,13 @@
              IconImageSource="ic_home.png"  >
 
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Spacing="0">
             <Grid ColumnDefinitions="*,*"
-          VerticalOptions="Start"
-          BackgroundColor="#2887DE"
-          HeightRequest="30"
-          Padding="8"
-          RowDefinitions="*">
+                VerticalOptions="Start"
+                BackgroundColor="#2887DE"
+                HeightRequest="30"
+                Padding="8"
+                RowDefinitions="*">
                 <Label 
                     Margin="5,2,0,0"
                     Grid.Column="0"
@@ -26,11 +26,31 @@
             HorizontalOptions="End">
                 </ImageButton>
             </Grid>
-            <Label Text="Elementos de home"
-                   TextColor="Red"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-
+            <StackLayout Spacing="0">
+                <StackLayout BackgroundColor="#5CCBEE" WidthRequest="370" HeightRequest="120">
+                    <Label Text="Estudiante" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" TextColor="Black" FontSize="18" />
+                </StackLayout>
+                <Image Source="person.png" WidthRequest="50" HeightRequest="50"/>
+                <StackLayout BackgroundColor="#EBEEEF" WidthRequest="370" HeightRequest="130" Spacing="-40">
+                    <Label Text="Mayuri Quesada Estrada" HorizontalOptions="Center" VerticalOptions="EndAndExpand" TextColor="Black" FontSize="22"/>
+                    <Label Text="Diseño y Desarrollo de Software" HorizontalOptions="Center" VerticalOptions="EndAndExpand" TextColor="Black"/>
+                    <Label Text="Código:1187654" HorizontalOptions="Center" VerticalOptions="EndAndExpand" TextColor="Black" Margin="0,0,0,10" />
+                </StackLayout>
+            </StackLayout>
+            <StackLayout BackgroundColor="Black" WidthRequest="50" HeightRequest="1" Margin="70,10,70,0"/>
+            <StackLayout>
+                <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+                    <Image Source="voley_ini.png" WidthRequest="150" HeightRequest="150" Margin="30,0,10,10"/>
+                    <Image Source="futbol_ini.png" WidthRequest="155" HeightRequest="150" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" VerticalOptions="Center" Margin="0,-50,0,0">
+                    <Image Source="basquet_ini.png" WidthRequest="150" HeightRequest="150" Margin="30,0,10,10"/>
+                    <Image Source="fronton_ini.png" WidthRequest="155" HeightRequest="150" />
+                </StackLayout>
+                <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Margin="0,-50,0,0">
+                    <Image Source="pinpong_ini.png" WidthRequest="150" HeightRequest="150"/>
+                </StackLayout>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
