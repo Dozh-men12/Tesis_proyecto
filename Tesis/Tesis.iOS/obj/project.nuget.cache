@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "LidyxbTNHX7wW90pmAAJhpNEvVLNUOLS1fv+mBKr27nl0Y5BBJCzDvLji8B2x0ryCMewgA2xQRATm3l2MqZnkQ==",
+  "dgSpecHash": "9zmxIrAaRRn3YSENlVJwPmYAOIv0WQgjqnIgK6aIG8wE/I/P9Z1GRuJE5lvFvivueMNzKWvJYEWNZM1bOZbVzg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\elovf\\OneDrive\\Escritorio\\xamarin-TESIS\\Tesis_proyecto_anterior\\Tesis\\Tesis.iOS\\Tesis.iOS.csproj",
+  "projectFilePath": "D:\\5to ciclo\\proyecto_tesis\\Tesis_proyecto\\Tesis\\Tesis.iOS\\Tesis.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\elovf\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\elovf\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\elovf\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512",
-    "C:\\Users\\elovf\\.nuget\\packages\\xamarin.plugin.calendar\\2.0.9699\\xamarin.plugin.calendar.2.0.9699.nupkg.sha512"
+    "C:\\Users\\User\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\xamarin.plugin.calendar\\2.0.9699\\xamarin.plugin.calendar.2.0.9699.nupkg.sha512"
   ],
   "logs": []
 }

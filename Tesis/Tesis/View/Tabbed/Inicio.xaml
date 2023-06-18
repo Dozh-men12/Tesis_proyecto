@@ -5,6 +5,7 @@
              IconImageSource="ic_home.png"  >
 
     <ContentPage.Content>
+        <!--Esto es un commit de ejemplo-->
         <StackLayout Spacing="0">
             <Grid ColumnDefinitions="*,*"
                 VerticalOptions="Start"
