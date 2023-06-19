@@ -2,40 +2,100 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              xmlns:cal="clr-namespace:Xamarin.Plugin.Calendar;assembly=Xamarin.Plugin.Calendar" 
-             x:Class="Tesis.View.Reservar">
+             x:Class="Tesis.View.Reservar"
+             Title="Reservar"
+             IconImageSource="icon_calendar.png"
+              BackgroundColor="White">
     <ContentPage.Content>
-        <StackLayout>
-            <StackLayout>
-                <Grid ColumnDefinitions="*, *"
-                    VerticalOptions="Start"
-                    BackgroundColor="#2887DE"
-                    HeightRequest="30"
-                    Padding="10"
-                    RowDefinitions="*">
-                    <Label 
-                    Margin="15,2,0,0"
+        <StackLayout BackgroundColor="Transparent">
+            <Grid ColumnDefinitions="*,*"
+                VerticalOptions="Start"
+                BackgroundColor="#2887DE"
+                HeightRequest="30"
+                Padding="8"
+                RowDefinitions="*">
+                <Label 
+                    Margin="5,2,0,0"
                     Grid.Column="0"
-                    Text="Reserva"
-                    FontSize="20"
+                    Text="Reservar"
+                    FontSize="Medium"
                     TextColor="White">
-                    </Label>
-                    <ImageButton Grid.Column="1"
-                             Source="ic_dots"
-                             Background="transparent"
-                             HorizontalOptions="End">
-                    </ImageButton>
-                </Grid>
-            </StackLayout>
-            <StackLayout VerticalOptions="StartAndExpand">
-                <Label Text="Seleccione el campo"
+                </Label>
+                <ImageButton
+            Grid.Column="1"
+            Source="ic_dots"
+            Background="transparent"
+            HorizontalOptions="End">
+                </ImageButton>
+            </Grid>
+            <StackLayout VerticalOptions="Start">
+                <Label Text="Seleccione el campo" FontAttributes="Bold"
                    FontSize="17"
                    TextColor="Black"
-                   Margin="15,10,0,0"></Label>
+                   Margin="10,10,0,10"/>
+                <Picker Title="Eligir un campo a reservar" Margin="20,-10,20,0">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Futbol campo1</x:String>
+                            <x:String>Futbol campo 2</x:String>
+                            <x:String>Basquet y/o Voley</x:String>
+                            <x:String>Frontón</x:String>
+                            <x:String>Ping Pong</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
+            </StackLayout>            
+            <StackLayout VerticalOptions="Center">
+                <Label FontAttributes="Bold" Text="Seleccione la fecha"
+                   FontSize="17"
+                   Margin="10,10,0,10"
+                   TextColor="Black" />
+                <Label Text="Aquí va el horario" FontSize="20" Margin="120,50,100,0" />
+            </StackLayout>
+                  
+            
+            <StackLayout  VerticalOptions="EndAndExpand" >
+                <Label FontAttributes="Bold" Text="Horario disponible"
+                   FontSize="17"
+                   Margin="10,0,0,0"
+                   TextColor="Black" />
+                <ScrollView HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="300" WidthRequest="400" Margin="0,8,0,10">
+                    <StackLayout >                        
+                        <Button Text="Fultbol 1            05/06           10AM" BackgroundColor="#72CA7A" CornerRadius="30" HorizontalOptions="Center"/>
+                        <Button Text="Fultbol 1            05/06           10AM" BackgroundColor="#72CA7A" CornerRadius="30" HorizontalOptions="Center"/>
+                        <Button Text="Fultbol 1            05/06           10AM" BackgroundColor="#72CA7A" CornerRadius="30" HorizontalOptions="Center"/>
+                        <Button Text="Fultbol 1            05/06           10AM" Background="#EA5353" CornerRadius="30" HorizontalOptions="Center"/>
+                        <Button Text="Fultbol 1            05/06           10AM" Background="#EA5353" CornerRadius="30" HorizontalOptions="Center"/>
+                        <Button Text="Fultbol 1            05/06           10AM" BackgroundColor="#72CA7A" CornerRadius="30" HorizontalOptions="Center"/>
+                        <Button Text="Fultbol 1            05/06           10AM" Background="#EA5353" CornerRadius="30" HorizontalOptions="Center"/>
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+
+            <!--<ScrollView>
                 <StackLayout>
+                    <Button Text="Fultbol 1       05/06        10-11 AM" Background="#72CA7A" CornerRadius="30" HorizontalOptions="Center"/>
+                    <Button Text="Fultbol 1        05/06        10-11 AM" Background="#72CA7A" CornerRadius="30" HorizontalOptions="Center"/>
+                    <Button Text="Fultbol 1        05/06        11-12 AM" Background="#72CA7A" CornerRadius="30" HorizontalOptions="Center"/>
+                    <Button Text="Fultbol 1        05/06        12-13 PM" Background="#EA5353" CornerRadius="30" HorizontalOptions="Center"/>
+                    <Button Text="Fultbol 1        05/06        13-14 PM" Background="#72CA7A" CornerRadius="30" HorizontalOptions="Center"/>
+                    <Button Text="Fultbol 1       05/06        10-11 AM"  Background="#72CA7A" CornerRadius="30" HorizontalOptions="Center"/>
+                    <Button Text="Fultbol 1        05/06        10-11 AM" Background="#72CA7A" CornerRadius="30" HorizontalOptions="Center"/>
+                    <Button Text="Fultbol 1        05/06        11-12 AM" Background="#72CA7A" CornerRadius="30" HorizontalOptions="Center"/>
+                    <Button Text="Fultbol 1        05/06        12-13 PM" Background="#EA5353" CornerRadius="30" HorizontalOptions="Center"/>
+                    <Button Text="Fultbol 1        05/06        13-14 PM" Background="#72CA7A" CornerRadius="30" HorizontalOptions="Center"/>
+                </StackLayout>
+            </ScrollView>-->
+            <!--<StackLayout Spacing="0">
+                --><!--<Label FontAttributes="Bold" Text="Seleccione el campo"
+                   FontSize="17"
+                   TextColor="Black"
+                   Margin="15,0,0,0"></Label>-->
+                <!--<StackLayout>
                     <Picker Title="Eligir un campo a reservar">
                         <Picker.ItemsSource>
                             <x:Array Type="{x:Type x:String}">
-                                <x:String>Futbon campo1</x:String>
+                                <x:String>Futbol campo1</x:String>
                                 <x:String>Futbol campo 2</x:String>
                                 <x:String>Basquet y/o Voley</x:String>
                                 <x:String>Frontón</x:String>
@@ -43,22 +103,34 @@
                             </x:Array>
                         </Picker.ItemsSource>
                     </Picker>
+                </StackLayout>--><!--
+                <StackLayout VerticalOptions="Center" HorizontalOptions="StartAndExpand">
+                    <Label FontAttributes="Bold" Text="Seleccione la fecha"
+                   FontSize="17"
+                   TextColor="Black"
+                   Margin="8"/>
+                    <Label Text="Aquí va el horario" FontSize="20" Margin="120,50,50,50" />
                 </StackLayout>
-                <StackLayout>
-                    
-                </StackLayout>
-                <Label Text="Horario Disponible"
+                <Label FontAttributes="Bold" Text="Horario Disponible"
                    FontSize="17"
                    TextColor="Black"
                    Margin="15,10,0,0"></Label>
-                <StackLayout>
-                    <Button Text="Fultbol 1        05/06        10-11 AM" Background="#72CA7A" CornerRadius="30" HorizontalOptions="Center"/>
-                    <Button Text="Fultbol 1        05/06        11-12 AM" Background="#72CA7A" CornerRadius="30" HorizontalOptions="Center"/>
-                    <Button Text="Fultbol 1        05/06        12-13 PM" Background="#FF3B3B" CornerRadius="30" HorizontalOptions="Center"/>
-                    <Button Text="Fultbol 1        05/06        13-14 PM" Background="#72CA7A" CornerRadius="30" HorizontalOptions="Center"/>
-                </StackLayout>
-            </StackLayout>
-            <Button Text="Reservar" HorizontalOptions="Center" WidthRequest="150" BackgroundColor="#5CCBEE" CornerRadius="30" Margin="0,0,0,20"></Button>
+                <ScrollView BackgroundColor="blue">
+                    <StackLayout>
+                        <Button Text="Fultbol 1       05/06        10-11 AM" Background="#72CA7A" CornerRadius="30" HorizontalOptions="Center"/>                        
+                        <Button Text="Fultbol 1        05/06        10-11 AM" Background="#72CA7A" CornerRadius="30" HorizontalOptions="Center"/>
+                        <Button Text="Fultbol 1        05/06        11-12 AM" Background="#72CA7A" CornerRadius="30" HorizontalOptions="Center"/>
+                        <Button Text="Fultbol 1        05/06        12-13 PM" Background="#EA5353" CornerRadius="30" HorizontalOptions="Center"/>
+                        <Button Text="Fultbol 1        05/06        13-14 PM" Background="#72CA7A" CornerRadius="30" HorizontalOptions="Center"/>
+                        <Button Text="Fultbol 1       05/06        10-11 AM" Background="#72CA7A" CornerRadius="30" HorizontalOptions="Center"/>
+                        <Button Text="Fultbol 1        05/06        10-11 AM" Background="#72CA7A" CornerRadius="30" HorizontalOptions="Center"/>
+                        <Button Text="Fultbol 1        05/06        11-12 AM" Background="#72CA7A" CornerRadius="30" HorizontalOptions="Center"/>
+                        <Button Text="Fultbol 1        05/06        12-13 PM" Background="#EA5353" CornerRadius="30" HorizontalOptions="Center"/>
+                        <Button Text="Fultbol 1        05/06        13-14 PM" Background="#72CA7A" CornerRadius="30" HorizontalOptions="Center"/>
+                    </StackLayout>                    
+                </ScrollView>
+            </StackLayout>-->
+            <Button Text="Reservar" HorizontalOptions="Center" WidthRequest="150" BackgroundColor="#5CCBEE" CornerRadius="30" Margin="0,1,0,10"></Button>
         </StackLayout>
     </ContentPage.Content>
     

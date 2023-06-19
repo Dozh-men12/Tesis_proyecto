@@ -1,14 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+<TabbedPage  xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Tesis.View"
              x:Class="Tesis.View.Tabbed.ContainerTabbedPage"
-             Title="Tabbed page"
-             BarTextColor="White"   BarBackgroundColor="#108DA8"  SelectedTabColor="White" UnselectedTabColor="Black"    >
+             NavigationPage.HasNavigationBar="False"
+             SelectedTabColor="Blue" UnselectedTabColor="Gray"
+             BackgroundColor="DarkGray"
+            >
+    <TabbedPage.Children>
+        <local:Inicio  />
+        <!--<local:Ver_campos />-->
+        <local:Reservar   />
+        <local:Mis_Reservas />
+    </TabbedPage.Children>
 
-    <local:Inicio Title="Inicio"  IconImageSource="icon_home.png"  />
-    <local:Ver_campos Title="Ver campos" IconImageSource="icon_map.png"/>
-    <local:Reservar  Title="Reservar"  IconImageSource="icon_calendar.png" />
-    <local:Mis_Reservas Title="Mis reservas"  IconImageSource="icon_my_reserve.png"/>
+    
 
 </TabbedPage>

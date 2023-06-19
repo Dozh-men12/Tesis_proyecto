@@ -2,7 +2,10 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Tesis.View.Inicio"
-             IconImageSource="ic_home.png"  >
+             Title="Inicio"
+             IconImageSource="icon_home.png" 
+             BackgroundColor="White"
+              >
 
     <ContentPage.Content>
         <!--Esto es un commit de ejemplo-->
@@ -27,21 +30,23 @@
             HorizontalOptions="End">
                 </ImageButton>
             </Grid>
-            <StackLayout Spacing="0">
-                <StackLayout BackgroundColor="#5CCBEE" WidthRequest="370" HeightRequest="120">
-                    <Label Text="Estudiante" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" TextColor="Black" FontSize="18" />
-                </StackLayout>
-                <Image Source="person.png" WidthRequest="50" HeightRequest="50"/>
-                <StackLayout BackgroundColor="#EBEEEF" WidthRequest="370" HeightRequest="130" Spacing="-40">
+            
+            <StackLayout >
+                <StackLayout BackgroundColor="#5CCBEE" WidthRequest="370" HeightRequest="300">
+                    <Label Text="Estudiante" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" TextColor="Black" FontSize="18"   Padding="0,15,0,0" />
+                    <Image Source="person.png"  HeightRequest="150"/>
                     <Label Text="Mayuri Quesada Estrada" HorizontalOptions="Center" VerticalOptions="EndAndExpand" TextColor="Black" FontSize="22"/>
+                    
                     <Label Text="Diseño y Desarrollo de Software" HorizontalOptions="Center" VerticalOptions="EndAndExpand" TextColor="Black"/>
                     <Label Text="Código:1187654" HorizontalOptions="Center" VerticalOptions="EndAndExpand" TextColor="Black" Margin="0,0,0,10" />
-                </StackLayout>
+                </StackLayout>                           
             </StackLayout>
-            <StackLayout BackgroundColor="Black" WidthRequest="50" HeightRequest="1" Margin="70,10,70,0"/>
+            <Grid>
+                <BoxView Color="Black" HeightRequest="2" WidthRequest="300" HorizontalOptions="Center"  />
+            </Grid>
             <StackLayout>
                 <StackLayout Orientation="Horizontal" VerticalOptions="Center">
-                    <Image Source="voley_ini.png" WidthRequest="150" HeightRequest="150" Margin="30,0,10,10"/>
+                    <Image Source="voley_ini.png" WidthRequest="150" HeightRequest="150" Margin="30,0,10,10"  />
                     <Image Source="futbol_ini.png" WidthRequest="155" HeightRequest="150" />
                 </StackLayout>
                 <StackLayout Orientation="Horizontal" VerticalOptions="Center" Margin="0,-50,0,0">
