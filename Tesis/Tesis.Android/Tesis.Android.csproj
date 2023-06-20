@@ -139,10 +139,10 @@
     <AndroidResource Include="Resources\drawable\icongoogle.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\ini.png" />
+    <AndroidResource Include="Resources\drawable\tecini.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\tecini.png" />
+    <AndroidResource Include="Resources\drawable\soccer_login.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>

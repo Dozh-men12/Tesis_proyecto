@@ -12,14 +12,17 @@
                VerticalOptions="FillAndExpand" Aspect="AspectFill" IsVisible="true" 
                HeightRequest="850" Opacity="0.3"/>
             
-            <Grid RowSpacing="5" VerticalOptions="Center">
-                <Image x:Name="main_backgroundd" Source="ini.png" IsVisible="true" Aspect="AspectFill" 
-                   HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" 
-                   HeightRequest="300" Margin="0,0,0,120"/>
+            <Grid RowSpacing="5" VerticalOptions="Center" >
+                <Image x:Name="main_backgroundd" Source="soccer_login.png" IsVisible="true" Aspect="AspectFill"                    
+                   HeightRequest="260" WidthRequest="20" Margin="30,0,35,120"/>
             </Grid>
-            <StackLayout Margin="0,300,0,0">
+            <StackLayout Margin="0,350,0,0">
                 <!-- Se aplica un Margin de 400 unidades en la parte superior -->
-                <Button ImageSource="icongoogle.png" Text="Iniciar Sesión con Google" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" CornerRadius="20"/>
+                <Button Text="Iniciar Sesión con Google" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" CornerRadius="20" >
+                    <Button.ImageSource >
+                        <FileImageSource File="icongoogle.png"/> 
+                    </Button.ImageSource>
+                </Button>
             </StackLayout>
         </Grid>
     </RelativeLayout>

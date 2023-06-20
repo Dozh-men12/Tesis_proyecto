@@ -69,3 +69,24 @@ C:\Users\elovf\OneDrive\Escritorio\xamarin-TESIS\Tesis_proyecto_anterior\Tesis\T
 C:\Users\elovf\OneDrive\Escritorio\xamarin-TESIS\Tesis_proyecto_anterior\Tesis\Tesis\obj\Debug\netstandard2.0\Tesis.pdb
 C:\Users\elovf\OneDrive\Escritorio\xamarin-TESIS\Tesis_proyecto_anterior\Tesis\Tesis\obj\Debug\netstandard2.0\ref\Tesis.dll
 C:\Users\elovf\OneDrive\Escritorio\xamarin-TESIS\Tesis_proyecto_anterior\Tesis\Tesis\obj\Debug\netstandard2.0\View\Login.xaml.g.cs
+D:\5to ciclo\proyecto_tesis\Tesis_proyecto\Tesis\Tesis\bin\Debug\netstandard2.0\Tesis.deps.json
+D:\5to ciclo\proyecto_tesis\Tesis_proyecto\Tesis\Tesis\bin\Debug\netstandard2.0\Tesis.dll
+D:\5to ciclo\proyecto_tesis\Tesis_proyecto\Tesis\Tesis\bin\Debug\netstandard2.0\Tesis.pdb
+D:\5to ciclo\proyecto_tesis\Tesis_proyecto\Tesis\Tesis\obj\Debug\netstandard2.0\Tesis.csproj.AssemblyReference.cache
+D:\5to ciclo\proyecto_tesis\Tesis_proyecto\Tesis\Tesis\obj\Debug\netstandard2.0\Tesis.GeneratedMSBuildEditorConfig.editorconfig
+D:\5to ciclo\proyecto_tesis\Tesis_proyecto\Tesis\Tesis\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\5to ciclo\proyecto_tesis\Tesis_proyecto\Tesis\Tesis\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\5to ciclo\proyecto_tesis\Tesis_proyecto\Tesis\Tesis\obj\Debug\netstandard2.0\View\Login.xaml.g.cs
+D:\5to ciclo\proyecto_tesis\Tesis_proyecto\Tesis\Tesis\obj\Debug\netstandard2.0\View\Tabbed\ContainerTabbedPage.xaml.g.cs
+D:\5to ciclo\proyecto_tesis\Tesis_proyecto\Tesis\Tesis\obj\Debug\netstandard2.0\View\Tabbed\Inicio.xaml.g.cs
+D:\5to ciclo\proyecto_tesis\Tesis_proyecto\Tesis\Tesis\obj\Debug\netstandard2.0\View\Tabbed\Mis_Reservas.xaml.g.cs
+D:\5to ciclo\proyecto_tesis\Tesis_proyecto\Tesis\Tesis\obj\Debug\netstandard2.0\View\Tabbed\Reservar.xaml.g.cs
+D:\5to ciclo\proyecto_tesis\Tesis_proyecto\Tesis\Tesis\obj\Debug\netstandard2.0\View\Tabbed\Ver_campos.xaml.g.cs
+D:\5to ciclo\proyecto_tesis\Tesis_proyecto\Tesis\Tesis\obj\Debug\netstandard2.0\Tesis.AssemblyInfoInputs.cache
+D:\5to ciclo\proyecto_tesis\Tesis_proyecto\Tesis\Tesis\obj\Debug\netstandard2.0\Tesis.AssemblyInfo.cs
+D:\5to ciclo\proyecto_tesis\Tesis_proyecto\Tesis\Tesis\obj\Debug\netstandard2.0\Tesis.csproj.CoreCompileInputs.cache
+D:\5to ciclo\proyecto_tesis\Tesis_proyecto\Tesis\Tesis\obj\Debug\netstandard2.0\XamlC.stamp
+D:\5to ciclo\proyecto_tesis\Tesis_proyecto\Tesis\Tesis\obj\Debug\netstandard2.0\Tesis.dll
+D:\5to ciclo\proyecto_tesis\Tesis_proyecto\Tesis\Tesis\obj\Debug\netstandard2.0\refint\Tesis.dll
+D:\5to ciclo\proyecto_tesis\Tesis_proyecto\Tesis\Tesis\obj\Debug\netstandard2.0\Tesis.pdb
+D:\5to ciclo\proyecto_tesis\Tesis_proyecto\Tesis\Tesis\obj\Debug\netstandard2.0\ref\Tesis.dll
