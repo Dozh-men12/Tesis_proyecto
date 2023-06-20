@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel;
 using Tesis.View.Tabbed;
+using Tesis.View;
 using Xamarin.Forms;
 
 namespace Tesis
@@ -10,7 +11,7 @@ namespace Tesis
         {
             InitializeComponent();
 
-            MainPage = new ContainerTabbedPage();
+            MainPage = new Login(); 
         }
 
         protected override void OnStart()

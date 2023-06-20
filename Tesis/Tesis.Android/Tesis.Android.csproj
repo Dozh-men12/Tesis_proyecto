@@ -57,9 +57,6 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
-    <PackageReference Include="Xamarin.Forms.PancakeView">
-      <Version>2.3.0.759</Version>
-    </PackageReference>
     <PackageReference Include="Xamarin.Plugin.Calendar">
       <Version>2.0.9699</Version>
     </PackageReference>
@@ -139,7 +136,13 @@
     <AndroidResource Include="Resources\drawable\person.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\trash.png" />
+    <AndroidResource Include="Resources\drawable\icongoogle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\tecini.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>

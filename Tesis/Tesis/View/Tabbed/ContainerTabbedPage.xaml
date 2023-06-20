@@ -5,7 +5,7 @@
              x:Class="Tesis.View.Tabbed.ContainerTabbedPage"
              NavigationPage.HasNavigationBar="False"
              SelectedTabColor="Blue" UnselectedTabColor="Gray"
-             BackgroundColor="DarkGray"
+             BackgroundColor="Transparent"      
             >
     <TabbedPage.Children>
         <local:Inicio  />
