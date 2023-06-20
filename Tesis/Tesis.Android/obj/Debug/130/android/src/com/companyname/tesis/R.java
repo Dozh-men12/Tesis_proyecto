@@ -10626,7 +10626,7 @@ public final class R {
     public static final int toolbar=0x7f0b0094;
   }
   public static final class mipmap {
-    public static final int ic_launcher=0x7f0c0000;
+    public static final int ico=0x7f0c0000;
     public static final int icon=0x7f0c0001;
     public static final int icon_round=0x7f0c0002;
     public static final int launcher_foreground=0x7f0c0003;

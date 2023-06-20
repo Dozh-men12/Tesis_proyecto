@@ -15,9 +15,9 @@
       <action android:name="android.media.browse.MediaBrowserService" />
     </intent>
   </queries>
-  <application android:name="android.app.Application" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/ic_launcher" android:label="Tesis.Android" android:theme="@style/MainTheme">
-    <activity android:name="crc64fff513f2fe8a157f.MainActivity" android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:icon="@mipmap/ic_launcher" android:label="Tesis" android:theme="@style/MainTheme" />
-    <activity android:name="crc64fff513f2fe8a157f.SplashScreen" android:configChanges="screenSize" android:exported="true" android:icon="@mipmap/ic_launcher" android:label="Tesis" android:theme="@style/splash">
+  <application android:name="android.app.Application" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/ico" android:label="Tesis.Android" android:theme="@style/MainTheme">
+    <activity android:name="crc64fff513f2fe8a157f.MainActivity" android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:icon="@mipmap/ico" android:label="Tesis" android:theme="@style/MainTheme" />
+    <activity android:name="crc64fff513f2fe8a157f.SplashScreen" android:configChanges="screenSize" android:exported="true" android:icon="@mipmap/ico" android:label="Tesis" android:theme="@style/splash">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

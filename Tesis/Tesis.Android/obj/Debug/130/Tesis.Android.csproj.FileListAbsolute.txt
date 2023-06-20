@@ -3250,8 +3250,8 @@ D:\5to ciclo\proyecto_tesis\Tesis_proyecto\Tesis\Tesis.Android\obj\Debug\130\sta
 D:\5to ciclo\proyecto_tesis\Tesis_proyecto\Tesis\Tesis.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
 D:\5to ciclo\proyecto_tesis\Tesis_proyecto\Tesis\Tesis.Android\obj\Debug\130\res\drawable\soccer_login.png
 C:\Users\elovf\OneDrive\Escritorio\xamarin-TESIS\Tesis_proyecto_anterior\Tesis\Tesis.Android\obj\Debug\130\res\drawable\soccer_login.png
-C:\Users\elovf\OneDrive\Escritorio\xamarin-TESIS\Tesis_proyecto_anterior\Tesis\Tesis.Android\obj\Debug\130\res\mipmap-hdpi\ic_launcher.png
-C:\Users\elovf\OneDrive\Escritorio\xamarin-TESIS\Tesis_proyecto_anterior\Tesis\Tesis.Android\obj\Debug\130\res\mipmap-mdpi\ic_launcher.png
-C:\Users\elovf\OneDrive\Escritorio\xamarin-TESIS\Tesis_proyecto_anterior\Tesis\Tesis.Android\obj\Debug\130\res\mipmap-xhdpi\ic_launcher.png
-C:\Users\elovf\OneDrive\Escritorio\xamarin-TESIS\Tesis_proyecto_anterior\Tesis\Tesis.Android\obj\Debug\130\res\mipmap-xxhdpi\ic_launcher.png
-C:\Users\elovf\OneDrive\Escritorio\xamarin-TESIS\Tesis_proyecto_anterior\Tesis\Tesis.Android\obj\Debug\130\res\mipmap-xxxhdpi\ic_launcher.png
+C:\Users\elovf\OneDrive\Escritorio\xamarin-TESIS\Tesis_proyecto_anterior\Tesis\Tesis.Android\obj\Debug\130\res\mipmap-hdpi\ico.png
+C:\Users\elovf\OneDrive\Escritorio\xamarin-TESIS\Tesis_proyecto_anterior\Tesis\Tesis.Android\obj\Debug\130\res\mipmap-mdpi\ico.png
+C:\Users\elovf\OneDrive\Escritorio\xamarin-TESIS\Tesis_proyecto_anterior\Tesis\Tesis.Android\obj\Debug\130\res\mipmap-xhdpi\ico.png
+C:\Users\elovf\OneDrive\Escritorio\xamarin-TESIS\Tesis_proyecto_anterior\Tesis\Tesis.Android\obj\Debug\130\res\mipmap-xxhdpi\ico.png
+C:\Users\elovf\OneDrive\Escritorio\xamarin-TESIS\Tesis_proyecto_anterior\Tesis\Tesis.Android\obj\Debug\130\res\mipmap-xxxhdpi\ico.png
