@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "+uUvABBqWPhHZvNEvTPZGVPGJseH7uEdNP/z5usXbk5Ws40gPYppSX/Gfy9ifuYwl3sr5nof7TZp+SBIM17p2g==",
+  "dgSpecHash": "i1TfXYotCjLt/5GMy4/5xyT1Eyt6ArlqmmfCHTuULEt5InIvxSzrTT0lYPQOR6aoSrJrrqtAr11TDDMz6hCT+A==",
   "success": true,
-  "projectFilePath": "D:\\5to ciclo\\proyecto_tesis\\Tesis_proyecto\\Tesis\\Tesis.iOS\\Tesis.iOS.csproj",
+  "projectFilePath": "C:\\Users\\elovf\\OneDrive\\Escritorio\\xamarin-TESIS\\Tesis_proyecto_anterior\\Tesis\\Tesis.iOS\\Tesis.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\User\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\xamarin.forms.pancakeview\\2.3.0.759\\xamarin.forms.pancakeview.2.3.0.759.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\xamarin.plugin.calendar\\2.0.9699\\xamarin.plugin.calendar.2.0.9699.nupkg.sha512"
+    "C:\\Users\\elovf\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
+    "C:\\Users\\elovf\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\elovf\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\elovf\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512",
+    "C:\\Users\\elovf\\.nuget\\packages\\xamarin.forms.pancakeview\\2.3.0.759\\xamarin.forms.pancakeview.2.3.0.759.nupkg.sha512",
+    "C:\\Users\\elovf\\.nuget\\packages\\xamarin.plugin.calendar\\2.0.9699\\xamarin.plugin.calendar.2.0.9699.nupkg.sha512"
   ],
   "logs": []
 }

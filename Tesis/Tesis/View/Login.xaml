@@ -14,7 +14,7 @@
             
             <Grid RowSpacing="5" VerticalOptions="Center" >
                 <Image x:Name="main_backgroundd" Source="soccer_login.png" IsVisible="true" Aspect="AspectFill"                    
-                   HeightRequest="260" WidthRequest="20" Margin="30,0,35,120"/>
+                   HeightRequest="260" WidthRequest="20" Margin="10,0,30,120"/>
             </Grid>
             <StackLayout Margin="0,350,0,0">
                 <!-- Se aplica un Margin de 400 unidades en la parte superior -->

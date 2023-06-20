@@ -12,7 +12,7 @@ using System.Text;
 
 namespace Tesis.Droid
 {
-    [Activity(Label = "Tesis", Icon = "@mipmap/icon", 
+    [Activity(Label = "Tesis", Icon = "@mipmap/ic_launcher", 
         Theme = "@style/splash", MainLauncher = true, 
         ConfigurationChanges = ConfigChanges.ScreenSize )]
     public class SplashScreen : Activity

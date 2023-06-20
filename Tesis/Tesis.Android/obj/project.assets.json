@@ -3575,24 +3575,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Users\\elovf\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\5to ciclo\\proyecto_tesis\\Tesis_proyecto\\Tesis\\Tesis.Android\\Tesis.Android.csproj",
+      "projectUniqueName": "C:\\Users\\elovf\\OneDrive\\Escritorio\\xamarin-TESIS\\Tesis_proyecto_anterior\\Tesis\\Tesis.Android\\Tesis.Android.csproj",
       "projectName": "Tesis.Android",
-      "projectPath": "D:\\5to ciclo\\proyecto_tesis\\Tesis_proyecto\\Tesis\\Tesis.Android\\Tesis.Android.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\5to ciclo\\proyecto_tesis\\Tesis_proyecto\\Tesis\\Tesis.Android\\obj\\",
+      "projectPath": "C:\\Users\\elovf\\OneDrive\\Escritorio\\xamarin-TESIS\\Tesis_proyecto_anterior\\Tesis\\Tesis.Android\\Tesis.Android.csproj",
+      "packagesPath": "C:\\Users\\elovf\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\elovf\\OneDrive\\Escritorio\\xamarin-TESIS\\Tesis_proyecto_anterior\\Tesis\\Tesis.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\elovf\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3606,8 +3606,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "D:\\5to ciclo\\proyecto_tesis\\Tesis_proyecto\\Tesis\\Tesis\\Tesis.csproj": {
-              "projectPath": "D:\\5to ciclo\\proyecto_tesis\\Tesis_proyecto\\Tesis\\Tesis\\Tesis.csproj"
+            "C:\\Users\\elovf\\OneDrive\\Escritorio\\xamarin-TESIS\\Tesis_proyecto_anterior\\Tesis\\Tesis\\Tesis.csproj": {
+              "projectPath": "C:\\Users\\elovf\\OneDrive\\Escritorio\\xamarin-TESIS\\Tesis_proyecto_anterior\\Tesis\\Tesis\\Tesis.csproj"
             }
           }
         }
@@ -3620,21 +3620,9 @@
             "target": "Package",
             "version": "[1.7.0, )"
           },
-          "Xamarin.Essentials": {
-            "target": "Package",
-            "version": "[1.7.0, )"
-          },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[5.0.0.2196, )"
-          },
-          "Xamarin.Forms": {
-            "target": "Package",
-            "version": "[5.0.0.2196, )"
-          },
-          "Xamarin.Plugin.Calendar": {
-            "target": "Package",
-            "version": "[2.0.9699, )"
           },
           "Xamarin.Plugin.Calendar": {
             "target": "Package",
